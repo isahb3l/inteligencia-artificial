@@ -6,28 +6,28 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Assim que saiu da escola você se depara com uma carta da faculdade dizendo que vôce passou no curso dos seus sonhos. Mas a graduação é integral. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "É o melhor dia da minha vida!",
+                afirmacao: "No início ficou com medo, mas logo iniciou na faculdade. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Não posso fazer isso agora!",
+                afirmacao: "vôce hesitou e não deu iníocio a faculdade. Decidiu focar em outras coisas ."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Com a descoberta de uma ótima propósta de emprego, em uma empresa grande na cidade, com potêncial para subir de cargo. Mas de 8h por dia  . Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Não posso largar a faculdade agora, nesse momento tão importante",
+                afirmacao: "Vôce decidiu recusar a proposta e concluir a faculdade, pois com um diploma novas portas se abririam pra vôce."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Essa é a minha chance",
+                afirmacao: "Abraçou a oportunidade, e engressou em uma das maiores empresas de tecnologia do país"
             }
         ]
     },
@@ -111,3 +111,4 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+
