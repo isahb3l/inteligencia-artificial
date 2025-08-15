@@ -32,41 +32,41 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Após um bom tempo vôce encontra seu amor do colegial, ele está completamente diferente. Ele te convida para um jantar, o que você faz?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Já faz tempo que não nos vemos, talvez eu deva dar uma chance",
+                afirmacao: "De primeira, você não estava muito segura. Mas deepois de mais alguns encontros decidiram reatar o relacionamento de vocês."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Me preocupo com o rumo desse jantar. já faz tanto tempo... não sei se estou pronta para algo a mais.",
+                afirmacao: "Sua preocupação fez com que você desse um tempo de relacionamentos, dando espaço para o autocuidado e foco em grandes negôcios"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "As estações passaram, ciclos antigos se encerraram e vôce se vê em uma grande crise existencial. Qaul é o seu primeiro passo pra sair dessa? ",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Com um relacionamento estável, e uma estábiidade financeira boa, talves seja hora de partir para algo mais...sério!",
+                afirmacao:" Depois de várias conversas e noites em claro pensando em qual passo iria dar, voces decidem se casar. afinal, a vida é feita de sonhos. Só que eles ficam melhores ainda quando são realizados..."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: " Eu acho que agora é um ótimo momento pra me reinventar, mudar a aparência, conhecer gente nova. Ou até fazer uma viagem",
+                afirmacao: " Vôce finalmente decidiu se dar o prazer de se divertir, com uma carreira estável, e uma boa grana, nada melhor do que sol, mal e curtição"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Dando um salto temporal, Em um domingo de sol, depois do almoço em família. Sua netimha te pergunta qual foi o momento em que vôce realmente sentiu que valía a pena estar viva. isso te faz recordar da sua juventude e das coisas belas da vida... o que vôce conta à ela?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: " De fato, vivi muitos momentos assim durante minha vida. mas eu acho que o mais marcante foi uma viagem que fiz a suíça durante a primaveira, ver aquele lugar foi a coisa mais linda da minha vida. ",
+                afirmacao: " Isso fez vôce lembrar das mais incrvéis viagens que foi durante a vida, lugares lindos, pessoas incrives, o amor da sua vida. Vôce percebeu que a vida deve ser vivida de forma com que o pra sempre, fique sempre nas memórias! "
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: " Ah!, foram tantos momentos bons, acho que não conseguiria colocar em palavras tudo que senti enquanto vivi. mas sem dúvidas, todos os momentos que passei ao lado do seu avô foram inesquecíves para mim",
+                afirmacao: " No fim, vôce realmente viveu um sonho! realizou tudo que um dia idealizou, se formou, casou-se com o amor da sua vida, levava uma vida boa, com muito sentimento em cada detalhe, contruiu um lar. E viveu a vida do lado de quem amava aproveitando ao maximo cada segundo!" 
             }
         ]
     },
@@ -111,4 +111,3 @@ function mostraResultado() {
 }
 
 mostraPergunta();
-
